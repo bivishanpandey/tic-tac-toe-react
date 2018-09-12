@@ -77,7 +77,7 @@ class App extends Component {
           })}
         </div>
         {this.state.winner ? (
-          <h2 className="winner">{`The winner if of the sequence ${
+          <h2 className="winner">{`The winner is of the sequence ${
             this.state.winner
           }`}</h2>
         ) : null}
